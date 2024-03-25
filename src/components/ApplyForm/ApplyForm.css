@@ -1,0 +1,27 @@
+.apply-form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+   
+    
+    
+}
+
+form{
+    width: 80%;
+    border-top: 3px solid rgb(53, 11, 92);
+    text-align: center;
+    background-color: white;
+}
+form input{
+    width: 90%;
+    margin: 3px;
+}
+.call-back-button{
+    width: 90%;
+    margin: 3px;
+    color: white;
+    background-color: rgb(53, 11, 92);
+    border: none;
+}

@@ -1,0 +1,55 @@
+
+.top-section{
+    background-color: rgb(249, 251, 253);
+}
+h4{
+    font-weight: 600;
+}
+@media screen and (max-width:800px) {
+    .top-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-section-details{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .top-section-appy-form{
+        width:70% ;
+    }
+}
+@media screen and (min-width:801px) {
+    .top-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .top-section-detailsext{
+        width: 40%;
+    }
+    .top-section-appy-form{
+        width: 60%;
+    }
+}
+.brouchure-button{
+    color: white;
+    background-color: green;
+    margin: 5px 5px 0px 5px;
+    width: 35%;
+   
+}
+.Register-button{
+    color: white;
+    width: 35%;
+    margin: 5px;
+    background-color: rgb(243, 26, 26);
+}
+.highlightes-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}

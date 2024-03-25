@@ -1,0 +1,20 @@
+.wcu-card{
+    background-color: rgb(249, 251, 253);
+    width: 32%;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    
+    
+}
+.l-card{
+    border-radius: 3px;
+    padding: 5px;
+    border-top: 2px solid rgb(53, 11, 92);
+  
+    
+}
+.level-card{
+    width: 24%;
+}
