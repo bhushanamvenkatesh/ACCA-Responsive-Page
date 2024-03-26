@@ -2,5 +2,8 @@
     padding: 1px 8px 1px 8px;
     /* box-shadow: 1px 1px 1px 1px ; */
     border-radius: 5px;
-    
+   
+}
+.h-title{
+    font-weight: 600;
 }

@@ -3,24 +3,24 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
   highlightes: [
     {
-        logo:'a',
+        logo:'bi bi-r-square',
         title:'Registrations',
         count:'12,418'
     },
     {
-        logo:'a',
+        logo:'bi bi-journal-check',
         title:'Joined',
         count:'10417'
     },
     {
-        logo:'a',
-        title:'Completed',
-        count:'8,718'
+        logo:'bi bi-book',
+        title:'Materials',
+        count:'Articles'
     },
     {
-        logo:'a',
-        title:'Placed',
-        count:'8,125'
+        logo:'bi bi-people-fill',
+        title:'Faculty',
+        count:'Experts'
     },
 
 

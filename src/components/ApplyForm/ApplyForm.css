@@ -25,3 +25,6 @@ form input{
     background-color: rgb(53, 11, 92);
     border: none;
 }
+button{
+    font-weight: 500;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import Chooseuscard from '../../../components/Chooseuscard/Chooseuscard'
 import WcuLevelCard from '../../../components/Chooseuscard/WcuLevelCard'
+import './whychooseus.css'
 
 function WhyChoose() {
   const x=useSelector(state=>state)
@@ -11,8 +12,8 @@ function WhyChoose() {
   
   return (
     <div className='why-choose-us-container text-center p-2'>
-        <h5>Why Choose</h5>
-        <div className="choose-us-cards-container d-flex flex-row justify-content-center flex-wrap">
+        <h4>Why Choose Us?</h4>
+        <div className="choose-us-cards-container p-3">
           {
             info.map((each)=>{
               return <Chooseuscard each={each}/>

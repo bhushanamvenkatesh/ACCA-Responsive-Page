@@ -12,9 +12,16 @@
     border-radius: 3px;
     padding: 5px;
     border-top: 2px solid rgb(53, 11, 92);
-  
-    
 }
 .level-card{
     width: 24%;
+}
+.image{
+   
+    width: 50%;
+    mix-blend-mode:darken;
+}
+.level-title{
+    font-weight: 600;
+    font-size: 18px;
 }

@@ -3,6 +3,7 @@
     background-color: brown;
     border: none;
     border-radius: 2px;
+    border-radius: 5px;
 }
 @media screen and (max-width:600px) {
     .kko-section-container{
@@ -41,3 +42,6 @@
     }
 }
 
+.kko-section-container {
+    background-color: rgb(249, 251, 253);
+}
